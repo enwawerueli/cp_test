@@ -1,0 +1,39 @@
+---
+- name: The user is on the signup page
+  uid: e729e4b8-f4ab-4c79-8dcb-f13a79fb294d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'User fills in their details: "p1", "p2", "p3", "p4", "p5" and clicks `Save
+    and Continue`'
+  uid: 34626a23-be21-40fd-8c5b-a088581797ad
+  parameters:
+  - name: p1
+  - name: p2
+  - name: p3
+  - name: p4
+  - name: p5
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'User fills in additional details: "p1", "p2", "p3", "p4", "p5" and clicks
+    `Submit`'
+  uid: 1426f189-1a0c-4633-8346-4f90b9b21ae3
+  parameters:
+  - name: p1
+  - name: p2
+  - name: p3
+  - name: p4
+  - name: p5
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Login is successful and user lands on their dashbard
+  uid: b280ac93-becd-4ae5-8a3a-2662f461092b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: The user is on the login page
+  uid: 6f4b6930-c8dc-4d03-a98d-6c66ed684dd4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User inputs correct "p1" plus "p2" and clicks `SignIn`
+  uid: beb56ed5-bdf7-4ec5-a9d6-5f93f5b5d8f3
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
