@@ -9,7 +9,7 @@ before_install:
   - hiptest-publisher -c hiptest-publisher.conf --only=tests --test-run-id=482528
 
 script:
-  - yarn test
+  - mocha test --recursive --reporter mocha-junit-reporter
 
 after_script:
   - hiptest-publisher -c hiptest-publisher.conf --push=test-results.xml --test-run-id=482528

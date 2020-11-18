@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="33.5870" tests="2" failures="1">
-  <testsuite name="Root Suite" timestamp="2020-11-18T18:08:16" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="32.2160" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-11-18T19:11:40" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="User authentication" timestamp="2020-11-18T18:08:16" tests="0" file="/home/enwawerueli/workspace/project_export/test/user_authentication_test.js" time="0.0000" failures="0">
+  <testsuite name="User authentication" timestamp="2020-11-18T19:11:40" tests="0" file="/home/enwawerueli/workspace/cp_test/test/user_authentication_test.js" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="User wants to signup" timestamp="2020-11-18T18:08:16" tests="1" file="/home/enwawerueli/workspace/project_export/test/user_authentication_test.js" time="23.4910" failures="1">
-    <testcase name="User authentication User wants to signup " time="23.4910" classname="">
+  <testsuite name="User wants to signup" timestamp="2020-11-18T19:11:40" tests="1" file="/home/enwawerueli/workspace/cp_test/test/user_authentication_test.js" time="22.2390" failures="1">
+    <testcase name="User authentication User wants to signup " time="22.2390" classname="">
       <failure message="expected &apos;https://cp.mombasa.sasalog.com/index.php/apply&apos; to equal &apos;https://cp.mombasa.sasalog.com/index.php&apos;" type="AssertionError"><![CDATA[AssertionError: expected 'https://cp.mombasa.sasalog.com/index.php/apply' to equal 'https://cp.mombasa.sasalog.com/index.php'
     at Context.userFillsInAdditionalDetailsP1P2P3P4P5AndClicksSubmit (test/actionwords.js:24:29)
     at Context.userWantsToSignup (test/user_authentication_test.js:28:84)
     at async Context.<anonymous> (test/user_authentication_test.js:34:7)]]></failure>
     </testcase>
   </testsuite>
-  <testsuite name="User wants to login" timestamp="2020-11-18T18:08:41" tests="1" file="/home/enwawerueli/workspace/project_export/test/user_authentication_test.js" time="10.0960" failures="0">
-    <testcase name="User authentication User wants to login " time="10.0960" classname="">
+  <testsuite name="User wants to login" timestamp="2020-11-18T19:12:03" tests="1" file="/home/enwawerueli/workspace/cp_test/test/user_authentication_test.js" time="9.9770" failures="0">
+    <testcase name="User authentication User wants to login " time="9.9770" classname="">
     </testcase>
   </testsuite>
 </testsuites>

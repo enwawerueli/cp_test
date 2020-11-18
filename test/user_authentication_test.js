@@ -9,7 +9,7 @@ describe('User authentication', function () {
   });
 
   beforeEach(async function () {
-    this.browser = await puppeteer.launch({headless: false, slowMo: 100, defaultViewport: null});
+    this.browser = await puppeteer.launch(/*{headless: false, slowMo: 100, defaultViewport: null}*/);
     this.page = await this.browser.newPage();
     this.page.setDefaultTimeout(0);
   });
